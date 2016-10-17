@@ -7,7 +7,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.gson.GsonBuilder;
@@ -23,6 +25,8 @@ public class Login extends AppCompatActivity {
 
     UserDao userDao;
 
+    TextView SignUp;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,6 +34,8 @@ public class Login extends AppCompatActivity {
 
         username = (EditText) findViewById(R.id.username);
         password = (EditText) findViewById(R.id.password);
+
+        SignUp = (TextView) findViewById(R.id.newaccount);
     }
 
     public void onLogin(View view) {
@@ -37,6 +43,11 @@ public class Login extends AppCompatActivity {
         pass = password.getText().toString();
 
         new BackgroundTask().execute();
+    }
+
+    public void onNewAccount(View view) {
+        Intent i = new Intent(Login.this, SignUp.class);
+        startActivity(i);
     }
 
     private class BackgroundTask extends AsyncTask<Void,Void,Void> {
