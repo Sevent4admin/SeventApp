@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Create Event"
+        android:id="@+id/nav_item_create" />
+
+    <item android:title="My Event"
+        android:id="@+id/nav_item_eventku"/>
+
+    <group android:id="@+id/group_settings_id">
+        <item
+            android:title="Settings"/>
+        <item
+            android:title="Help"/>
+        <item
+            android:title="Logout"/>
+    </group>
+
+
+</menu>

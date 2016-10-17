@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="places">
+        <item>Peduli Kesehatan</item>
+        <item>Konser Rock</item>
+        <item>Depapepe Concert</item>
+        <item>Lomba Kreasi</item>
+        <item>Basket Kuy</item>
+        <item>Candle Light Dinner</item>
+    </string-array>
+    <string-array name="place_date">
+        <item>29 Oktober 2016 </item>
+        <item>15 Maret 2017</item>
+        <item>1 Januari 2018</item>
+        <item>12 April 2018</item>
+        <item>7 Mei 2018</item>
+        <item>10 November 2018</item>
+    </string-array>
+    <string-array name="place_details">
+        <item>Lorem ipsum dolor sit amet, consectetur adipisicing elit
+        </item>
+    </string-array>
+    <string-array name="place_locations">
+        <item>PMI BANDUNG</item>
+        <item>Lap. Tegalega</item>
+        <item>Sabuga</item>
+        <item>Asia Afrika</item>
+        <item>Gor Citra</item>
+        <item>Upnormal</item>
+    </string-array>
+    <string-array name="place_price">
+        <item>FREE</item>
+        <item>35.000</item>
+        <item>150.000</item>
+        <item>FREE</item>
+        <item>20.000</item>
+        <item>FREE</item>
+    </string-array>
+    <array name="places_picture">
+        <item>@drawable/a</item>
+        <item>@drawable/b</item>
+        <item>@drawable/c</item>
+    </array>
+</resources>
