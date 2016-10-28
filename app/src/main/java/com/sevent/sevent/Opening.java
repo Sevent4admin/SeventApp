@@ -7,7 +7,7 @@ import android.os.Bundle;
 
 public class Opening extends AppCompatActivity {
 
-    private static int SPLASH_TIME_OUT = 1500;
+    private static int SPLASH_TIME_OUT = 500;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
