@@ -30,7 +30,7 @@
                     android:id="@+id/app_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Sevent"
+                    android:text="Sevent7"
                     android:textColor="#fff"
                     android:textStyle="bold"
                     android:textSize="40dp"

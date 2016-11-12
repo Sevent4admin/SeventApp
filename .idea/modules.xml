@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Seventer.iml" filepath="$PROJECT_DIR$/Seventer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SeventApp.iml" filepath="$PROJECT_DIR$/SeventApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
